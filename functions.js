@@ -114,7 +114,7 @@ OUTPUT:
 */
 
 export function findByName(name, arr) {
-    return arr.find((pet) => pet.name.includes('a'));
+    return arr.find((pet) => pet.name === name);
 }
 
 /*
